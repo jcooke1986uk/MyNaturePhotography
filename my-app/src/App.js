@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 function App() {
   return (
-    <div class="wrapper">
+    <div className="wrapper">
       <Header/>
 
       <MainContent/>
