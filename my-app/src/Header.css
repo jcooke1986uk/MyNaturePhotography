@@ -1,13 +1,15 @@
 header {
   display: flex;
   justify-content: space-between;
-  padding: 40px;
+  align-items: center;
+  padding: 10px 40px;
+  border-bottom: 1px solid #a88fca;
 }
 
 header a.button {
   border-radius: 4px;
-  border: 1px solid #1b7bb9;
-  background: #1b7bb9;
+  border: 1px solid #a88fca;
+  background: #a88fca;
   color: #fff;
   padding: 10px 20px;
   margin: 0 5px;
