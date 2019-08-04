@@ -4,7 +4,10 @@ import './Header.css';
 function Header() {
   return (
       <header>
-        <img src={require('./images/logo.png')} width={"300px"} alt="Jenny Cooke - Styling the web"/>
+        <div>
+          <p className="name">Jenny Cooke</p>
+          <p className="tagline">Styling the web</p>
+        </div>
         <div>
           <a
             href="https://www.instagram.com/jcooke1986/"
