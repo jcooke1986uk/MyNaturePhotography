@@ -1,13 +1,28 @@
 footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 40px;
+}
+
+footer div {
+  padding: 10px 0;
+}
+
+@media (min-width: 768px) {
+  footer div {
+    padding: 0;
+  }
 }
 
 footer a {
   color: #a88fca;
   padding: 0 20px;
   text-decoration: none;
+}
+
+footer a:first-of-type {
+  padding-left: 0;
 }
 
 footer a:hover {

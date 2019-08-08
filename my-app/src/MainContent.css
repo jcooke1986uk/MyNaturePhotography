@@ -9,12 +9,11 @@ main h1 {
   text-align: center;
   text-transform: uppercase;
   margin: 0;
-  padding: 30px;
+  padding: 20px 0px;
 }
 
 main p {
   margin: 0 auto 30px;
-  width: 75%;
 }
 
 main img {
@@ -23,4 +22,13 @@ main img {
 
 main img:hover {
   box-shadow: 0px 2px 15px #808080;
+}
+
+@media (min-width: 768px) {
+  main h1 {
+    padding: 30px;
+  }
+  main p {
+    width: 75%;
+  }
 }

@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300&display=swap');
 
 header {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 10px 40px;
   border-bottom: 1px solid #a88fca;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 30px 30px;
+}
+
+@media (min-width: 768px) {
+  header {
+    padding: 10px 40px;
+  }
 }
 
 header .name {
@@ -30,6 +37,10 @@ header a.button {
   margin: 0 5px;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+header a.button:first-of-type {
+  margin: 0;
 }
 
 
